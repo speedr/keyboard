@@ -1,0 +1,21 @@
+{
+  "name": "speedr-keyboard",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Florent Cailhol <florent.cailhol@gmail.com>",
+  "repository": "speedr/keyboard",
+  "main": "lib/index.js",
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "build": "6to5 --source-maps-inline --out-dir lib src"
+  },
+  "dependencies": {
+    "speedr-dom": "^1.0.0"
+  },
+  "devDependencies": {
+    "6to5": "^2.2.0"
+  },
+  "license": "MIT"
+}
