@@ -6,7 +6,7 @@
   "repository": "speedr/keyboard",
   "main": "lib/index.js",
   "files": [
-    "lib/"
+    "lib"
   ],
   "scripts": {
     "build": "6to5 --source-maps-inline --out-dir lib src"
